@@ -1,0 +1,82 @@
+body{
+  background-color: rgba(156, 209, 145, 0.815);
+
+background-image: url(pic/leaf.jpg);
+
+ background-size: 100%;
+
+ background-attachment: fixed;
+
+ background-repeat: repeat;
+
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+ .centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.SearchBar input {
+     height: 30px;
+     width: 300px;
+     border-radius: 50px;
+}
+
+.Button {
+
+  background-color: transparent; /* Green */
+  border: 2px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 30%;
+  border-radius: 10px;
+
+}
+.Button .button1{
+font-size: 15px;
+ background-color: yellow;
+  border-radius: 10px;
+
+}
+
+#name{
+  float: left;
+}
+
+
+main .Main{
+  width:100%;
+  background-image: url(pic/leaf.jpg);
+}
