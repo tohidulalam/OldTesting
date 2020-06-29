@@ -20,11 +20,12 @@ ol {
 }
 
 li {
+  
   float: right;
 }
 
 li a {
-  display: block;
+ display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -72,7 +73,7 @@ font-size: 15px;
 }
 
 #name{
-  float: left;
+ display: inline-block;
 }
 
 
